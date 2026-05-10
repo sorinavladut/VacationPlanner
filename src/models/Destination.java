@@ -28,6 +28,10 @@ public class Destination implements Searchable {
         return city;
     }
 
+    public String getDescription() {
+        return description;
+    }
+
     @Override
     public boolean matches(String keyword) {
         String normalized = keyword.toLowerCase();

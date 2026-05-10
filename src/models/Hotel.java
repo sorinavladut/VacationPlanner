@@ -18,6 +18,14 @@ public class Hotel implements Searchable {
         return id;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public int getStars() {
+        return stars;
+    }
+
     @Override
     public boolean matches(String keyword) {
         String normalized = keyword.toLowerCase();

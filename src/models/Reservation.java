@@ -29,6 +29,10 @@ public class Reservation implements Bookable {
         return status;
     }
 
+    public Tourist getTourist() {
+        return tourist;
+    }
+
     public TravelPackage getTravelPackage() {
         return travelPackage;
     }

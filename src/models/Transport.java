@@ -19,6 +19,14 @@ public class Transport implements Searchable {
         return id;
     }
 
+    public TransportType getType() {
+        return type;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
     @Override
     public boolean matches(String keyword) {
         String normalized = keyword.toLowerCase();
